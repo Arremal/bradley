@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803122275842",
+    "project_id": "courier-5d357",
+    "storage_bucket": "courier-5d357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803122275842:android:0551bbd79232becd7c691b",
+        "android_client_info": {
+          "package_name": "com.example.courier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803122275842-kcehcf2aemqtc6demddtrr5q6uud710q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh648IDLHSVSrO_7B_r1UL7KyP33qplVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803122275842-kcehcf2aemqtc6demddtrr5q6uud710q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
