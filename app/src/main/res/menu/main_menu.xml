@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_cycle"
+            android:title="Cycling"
+            android:icon="@drawable/icons8_cycling_500"/>
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Bus"
+            android:icon="@drawable/icons8_bus_500"/>
+        <item
+            android:id="@+id/nav_plane"
+            android:title="Plane"
+            android:icon="@drawable/icons_airplane_take_off_500" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/login_icon"/>
+                <item
+                    android:id="@+id/nav_cycle"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_bus"
+                    android:title="Logo"
+                    android:icon="@drawable/"/>
+                <item
+                    android:id="@+id/nav_plane"
+                    android:title="Plane"
+                    android:icon="@drawable/icons_airplane_take_off_500" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
