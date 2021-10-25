@@ -4,44 +4,53 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="Home"
-            android:icon="@drawable/home_icon"/>
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
         <item
             android:id="@+id/nav_cycle"
-            android:title="Cycling"
-            android:icon="@drawable/icons8_cycling_500"/>
+            android:icon="@drawable/icons8_cycling_500"
+            android:title="Cycling" />
         <item
             android:id="@+id/nav_bus"
-            android:title="Bus"
-            android:icon="@drawable/icons8_bus_500"/>
+            android:icon="@drawable/icons8_bus_500"
+            android:title="Bus" />
         <item
             android:id="@+id/nav_plane"
-            android:title="Plane"
-            android:icon="@drawable/icons_airplane_take_off_500" />
+            android:icon="@drawable/icons_airplane_take_off_500"
+            android:title="Plane" />
     </group>
     <group android:checkableBehavior="single">
 
-        <item
-            android:title="Profile">
+        <item android:title="Profile">
             <menu>
+
                 <item
                     android:id="@+id/nav_login"
-                    android:title="Login"
-                    android:icon="@drawable/login_icon"/>
+                    android:icon="@drawable/login_icon"
+                    android:title="Login" />
                 <item
-                    android:id="@+id/nav_cycle"
-                    android:title="Profile"
-                    android:icon="@drawable/profile_icon"/>
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile" />
                 <item
-                    android:id="@+id/nav_bus"
-                    android:title="Logo"
-                    android:icon="@drawable/"/>
-                <item
-                    android:id="@+id/nav_plane"
-                    android:title="Plane"
-                    android:icon="@drawable/icons_airplane_take_off_500" />
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_reply"
+                    android:title="Logout" />
             </menu>
         </item>
     </group>
+
+    <item android:title="comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate us"
+                android:icon="@drawable/rate_icon" />
+        </menu>
+    </item>
 
 </menu>
