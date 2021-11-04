@@ -16,7 +16,7 @@
             android:title="Bus" />
         <item
             android:id="@+id/nav_plane"
-            android:icon="@drawable/icons_airplane_take_off_500"
+            android:icon="@drawable/ic_baseline_airplanemode_active_24"
             android:title="Plane" />
     </group>
     <group android:checkableBehavior="single">
@@ -45,11 +45,11 @@
             <item
                 android:id="@+id/nav_share"
                 android:title="Share"
-                android:icon="@drawable/share" />
+                android:icon="@drawable/ic_baseline_share_24" />
             <item
                 android:id="@+id/nav_rate"
                 android:title="Rate us"
-                android:icon="@drawable/rate_icon" />
+                android:icon="@drawable/ic_baseline_star_rate_24" />
         </menu>
     </item>
 
